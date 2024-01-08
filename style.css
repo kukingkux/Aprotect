@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "sfpro";
+    src: url(assets/font/SFProFont/SF-Pro-Text-Regular.otf);
+}
+@font-face {
+    font-family: "sfpro-bold";
+    src: url(assets/font/SFProFont/SF-Pro-Text-Bold.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f2f2f2;
+    font-family: sfpro !important;
+}
+
+/* NAV START */
+#navigation .container {
+    margin-top: 2rem;
+    /* width: 85%; */
+    padding: 1rem  ;
+    background-color: #fff !important;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+}
+
+.section-left {
+    flex:1;
+}
+
+.section-mid ul {
+    list-style: none;
+
+    margin: 0;
+    flex:2
+}
+
+.section-right {
+    flex: 1
+}
+
+/* ELEMENTS */
+.btn-login {
+    width: 7rem;
+    padding: 1rem;
+    border-color: #84C642 !important;
+     color: #84C642 !important;   
+     border-radius: 0.5rem !important;
+}
+.btn-login:hover {
+    background-color: #84C642 !important;
+    color: #fff !important;
+}
+
+
+.btn-contactus {
+    width: 8rem;
+    padding: 1rem;
+    background-color: #84C642 !important;
+    border-color: #84C642 !important;
+    border-radius: 0.5rem !important;
+}
+
+/* NAV END */
+
+/* HOME START */
+#home .container {
+    margin-top: 40px;
+}
+
+#home .container h1 {
+    font-family: sfpro-bold;
+}
