@@ -1,76 +1,168 @@
 @font-face {
-    font-family: "sfpro";
-    src: url(assets/font/SFProFont/SF-Pro-Text-Regular.otf);
+  font-family: "sfpro";
+  src: url(assets/font/SFProFont/SF-Pro-Text-Regular.otf);
 }
+
 @font-face {
-    font-family: "sfpro-bold";
-    src: url(assets/font/SFProFont/SF-Pro-Text-Bold.otf);
+  font-family: "sfpro-bold";
+  src: url(assets/font/SFProFont/SF-Pro-Text-Bold.otf);
 }
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-color: #f2f2f2;
-    font-family: sfpro !important;
+  background-color: #f2f2f2;
+  font-family: sfpro !important;
+}
+
+a {
+  text-decoration: none !important;
 }
 
 /* NAV START */
 #navigation .container {
-    margin-top: 2rem;
-    /* width: 85%; */
-    padding: 1rem  ;
-    background-color: #fff !important;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 1rem;
+  margin-top: 2rem;
+  /* width: 85%; */
+  padding: 1rem;
+  background-color: #fff !important;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
 }
 
 .section-left {
-    flex:1;
+  flex: 1;
 }
 
 .section-mid ul {
-    list-style: none;
+  list-style: none;
+  margin: 0;
+  flex: 2;
+}
 
-    margin: 0;
-    flex:2
+.active-li {
+  color: #000;
+}
+
+.inactive-li {
+  color: grey;
 }
 
 .section-right {
-    flex: 1
+  flex: 1
 }
 
 /* ELEMENTS */
 .btn-login {
-    width: 7rem;
-    padding: 1rem;
-    border-color: #84C642 !important;
-     color: #84C642 !important;   
-     border-radius: 0.5rem !important;
+  border-color: #84C642 !important;
+  color: #84C642 !important;
+  border-radius: 0.5rem !important;
 }
+
 .btn-login:hover {
-    background-color: #84C642 !important;
-    color: #fff !important;
+  background-color: #84C642 !important;
+  color: #fff !important;
 }
 
 
 .btn-contactus {
-    width: 8rem;
-    padding: 1rem;
-    background-color: #84C642 !important;
-    border-color: #84C642 !important;
-    border-radius: 0.5rem !important;
+  background-color: #84C642 !important;
+  border-color: #84C642 !important;
+  border-radius: 0.5rem !important;
+}
+
+.btn-contactus:active {
+  background-color: #669933 !important;
+  border-color: #669933 !important;
+  border-radius: 0.5rem !important;
 }
 
 /* NAV END */
 
 /* HOME START */
 #home .container {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
 #home .container h1 {
-    font-family: sfpro-bold;
+  font-family: sfpro-bold;
+}
+
+#home .container h1 span {
+  font-family: sfpro;
+  font-weight: 600;
+}
+
+#home .top-title {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+#home .span-title {
+  font-weight: 500;
+}
+
+.home-options p {
+  max-width: 20%;
+  font-size: 1.2rem;
+}
+
+/* FAQ */
+#faq .container-fluid {
+  background-color: #84C642;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.faq-img {
+  background-color: #ddd;
+  border-radius: 16px;
+  height: 624px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CLASSES */
+.p-6 {
+  padding: 6rem !important;
+}
+.p-6
+
+.p-7 {
+  padding: 7rem !important;
+}
+
+.p-8 {
+  padding: 8rem !important;
+}
+
+.p-9 {
+  padding: 9rem !important;
+}
+
+.p-10 {
+  padding: 10rem !important;
+}
+
+.ps-10 {
+  padding: 10rem !important;
+}
+
+.pe-10 {
+  padding: 10rem !important;
 }
