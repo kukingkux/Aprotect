@@ -118,10 +118,28 @@ a {
 
 .faq-img {
   background-color: #ddd;
-  border-radius: 16px;
-  height: 624px;
+  border-radius: 30px;
+  height: 575px;
+  -webkit-box-shadow: -38px 23px 66px -17px rgba(0,0,0,0.15);
+-moz-box-shadow: -38px 23px 66px -17px rgba(0,0,0,0.15);
+box-shadow: -38px 23px 66px -17px rgba(0,0,0,0.15);
 }
 
+.faq-content {
+    color: #fff ;
+}
+
+.faq-content p, .faq-content h5 {
+    font-weight: 100;
+    font-family: sfpro;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.faq-content p.active, .faq-content h5.active{
+    font-weight: 100;
+    font-family: sfpro;
+    color: rgba(255, 255, 255, 1);
+}
 
 
 
@@ -141,7 +159,6 @@ a {
 .p-6 {
   padding: 6rem !important;
 }
-.p-6
 
 .p-7 {
   padding: 7rem !important;
