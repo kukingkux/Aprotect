@@ -151,17 +151,21 @@ box-shadow: 0px 0px 66px -24px rgba(132,198,66,1);
     background-color: #c1c667 ;
 }
 
+.line {
+    height:2px;
+    width: 100%;
+    background-color: #fff;
+}
 
 
 
 
-
-
-/* FAQ */
+/* FAQ START*/
 #faq .container-fluid {
   background-color: #84C642;
   padding-top: 3rem;
   padding-bottom: 3rem;
+  margin-bottom: 75px;
 }
 
 .faq-img {
@@ -188,9 +192,32 @@ box-shadow: -38px 23px 66px -17px rgba(0,0,0,0.15);
     font-family: sfpro;
     color: rgba(255, 255, 255, 1);
 }
+/* FAQ END */
+
+/* SERVICES START */
+#services .header h1 {
+  font-size: 3.25rem;
+}
+#services .header p {
+  color: #1e1e1e78;
+}
+
+#services .container {
+  margin-bottom: 75px;
+}
 
 
 
+
+
+/* SERVICES END */
+
+/* REVIEWS START */
+#reviews .container {
+  margin-bottom: 75px;
+}
+
+/* REVIEWS END */
 
 
 
