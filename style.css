@@ -289,18 +289,18 @@ a {
   height: 800px
 }
 
-#reviews .card {
+#reviews .cards {
   border: #84C642 1px solid;
   border-radius: 20px;
 }
 
 .swiper {
-
+height: 600px;
 }
 
-#reviews .card {
+#reviews .cards {
   max-width: 250px;
-  
+  height: auto !important;
 }
 
 /* REVIEWS END */
