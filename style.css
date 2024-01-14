@@ -303,8 +303,7 @@ a {
 }
 
 #services .searchbar-result img {
-  max-height: 32px;
-  max-width: 32px;
+  width: 25%;
 }
 
 
