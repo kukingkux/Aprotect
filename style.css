@@ -165,6 +165,10 @@ a {
   }
 }
 
+.radial img {
+  height: 100%;
+}
+
 .radial.satu {
   background-color: hsl(108, 49%, 60%);
 }
@@ -201,6 +205,14 @@ a {
   -webkit-box-shadow: -38px 23px 66px -17px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: -38px 23px 66px -17px rgba(0, 0, 0, 0.15);
   box-shadow: -38px 23px 66px -17px rgba(0, 0, 0, 0.15);
+}
+
+.faq-img img {
+  height: 575px;
+  width: 100%;
+  border-radius: 30px;
+  padding: 0;
+  object-fit: fill;
 }
 
 .faq-content {
@@ -290,27 +302,46 @@ a {
   width: 100%;
 }
 
+#services .searchbar-result img {
+  max-height: 32px;
+  max-width: 32px;
+}
+
 
 /* SERVICES END */
 
 /* REVIEWS START */
 #reviews .container-fluid {
   margin-bottom: 75px;
-  height: 800px
+}
+
+#reviews .swiper-wrapper {
+  height: 750px;
 }
 
 #reviews .cards {
-  border: #84C642 1px solid;
+  border: #b4b4b4 1px solid;
   border-radius: 20px;
 }
 
-.swiper {
-  height: 600px;
-}
 
 #reviews .cards {
-  max-width: 250px;
-  height: auto !important;
+  max-width: 300px;
+  height: 350px !important;
+  transition: 0.25s ease-in-out;
+}
+
+#reviews .cards:hover {
+  border-color: #84C642;
+  transform: scale(102%);
+  transform: translateY(10px)
+}
+
+#reviews .cards img {
+  max-width: 64px;
+  max-height: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* REVIEWS END */
