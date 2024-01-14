@@ -30,7 +30,11 @@ a {
   }
 
   #navigation .container .section-right {
-    display: none;
+    display: none !important;
+  }
+
+  #navigation .container .section-right .btn-main-contact {
+    display: none !important;
   }
 
   #navigation .container .section-mid {
@@ -45,20 +49,12 @@ a {
   }
 
   #home .container .desc-top-title {
-    width: 50%;
     font-size: 0.8rem !important
   }
 
-  #home .container .btn {
-    width: 50%;
-    font-size: 0.8rem !important
-  }
-
-  #home .container .row {
-    flex: 1;
-    justify-content: center;
-    align-items: center;
-  }
+  /* #home .container .btn {
+    font-size: 0.5rem !important
+  } */
 
   #home .container .hero-banner {
     display: none
