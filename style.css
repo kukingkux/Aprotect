@@ -25,7 +25,6 @@ a {
 /* NAV START */
 #navigation .container {
   margin-top: 2rem;
-  /* width: 85%; */
   padding: 1rem;
   background-color: #fff !important;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -36,6 +35,10 @@ a {
   flex: 1;
 }
 
+.section-left img {
+  width: 30%;
+}
+
 .section-mid ul {
   list-style: none;
   margin: 0;
@@ -43,6 +46,10 @@ a {
 }
 
 .active-li {
+  color: #000;
+}
+
+#navigation .inactive-li:hover {
   color: #000;
 }
 
@@ -277,6 +284,7 @@ a {
 }
 
 #services .section-bot img {
+  border-radius: 20px;
   width: 100%;
 }
 
@@ -295,7 +303,7 @@ a {
 }
 
 .swiper {
-height: 600px;
+  height: 600px;
 }
 
 #reviews .cards {
@@ -306,16 +314,37 @@ height: 600px;
 /* REVIEWS END */
 
 /* GETNOW START */
+
 #getnow .container {
   border: #e7e7e7 2px solid;
   border-radius: 20px;
 }
 
 #getnow .mobile-img img {
+  cursor: pointer;
   width: 50%;
 }
 
 /* GETNOW END */
+
+/* FOOTER START */
+
+#footer .footer-logo img {
+  cursor: pointer;
+  width: 30%;
+}
+
+#footer .subtext-grey:hover {
+  cursor: pointer;
+  color: #000;
+}
+
+#footer .footer-icon i {
+  cursor: pointer;
+  font-size: 1.3rem;
+}
+
+/* FOOTER END */
 
 
 
